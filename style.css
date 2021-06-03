@@ -1,4 +1,16 @@
-.grid{
+body {
+ background-color: rgb(8, 87, 87);
+}
+#root{
     display: grid;
     grid-template-columns: auto, auto, auto;
+    padding-left: 15%;
+}
+img {
+    border: 2px solid black;
+    width:25%;
+    border-radius: 10%;
+}
+img:hover {
+    transform: scale(1.2);
 }
